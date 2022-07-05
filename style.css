@@ -1,0 +1,246 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #dddddd12;
+}
+.container {
+  padding: 0px 50px;
+  display: flex;
+  justify-content: space-between;
+}
+a {
+  text-decoration: none;
+}
+.main-banner-content {
+  display: flex;
+  align-items: center;
+  z-index: 9999;
+}
+section {
+  overflow: hidden;
+  padding: 50px 0px;
+}
+.banner-img {
+  z-index: 9999;
+}
+.banner-content h1 {
+  color: #ffff;
+  font-size: 55px;
+}
+.banner-content p {
+  color: #fff;
+  padding: 20px 123px 35px 0px;
+}
+.btn a {
+  background: linear-gradient(to right, #fba24f, #ff1e1e);
+  padding: 14px 29px;
+  border-radius: 43px;
+  text-decoration: none;
+  color: #ffff;
+  font-weight: 600;
+}
+.btn a:hover {
+  background: linear-gradient(to right, #dd710d, #b91212);
+}
+#banner {
+  background-image: url(images/Project\ Cover4.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  clip-path: polygon(0 0, 100% 0%, 100% 88%, 0% 100%);
+}
+.overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #00000087;
+  z-index: 99;
+}
+/* about css start */
+.about-img,
+.right-about-content {
+  width: 40%;
+  margin: auto;
+}
+.about-img {
+  text-align: center;
+}
+.about-img img {
+  width: 70%;
+  text-align: center;
+}
+.about-content h2 {
+  color: #686767;
+  font-size: 32px;
+  font-weight: 700;
+}
+.about-content p {
+  padding: 20px 0px 40px 0px;
+  line-height: 31px;
+  font-size: 15px;
+  font-family: Poppins;
+}
+/* about css end */
+
+/* recipie css start */
+.section-title {
+  text-align: center;
+  text-transform: capitalize;
+  width: 605px;
+  margin: auto;
+}
+.section-title h2 {
+  color: #686767;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.section-title p {
+  font-size: 15px;
+  font-family: Poppins;
+  color: #252525;
+}
+.recipie-img img {
+  width: 100%;
+}
+.single-recipie {
+  width: 25%;
+  padding: 20px;
+  box-shadow: 0px 0px 14px 3px #ada9a994;
+  border-radius: 10px;
+  transform: skewY(-12deg);
+  margin: 0px 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  transition: all linear 0.3s;
+}
+.single-recipie:hover {
+  transform: skewY(0deg);
+  z-index: 99999;
+}
+.recipie-details h2 {
+  padding-top: 18px;
+  font-size: 22px;
+  color: #18191f;
+  font-weight: 700;
+}
+.recipie-details p {
+  font-family: Poppins;
+  font-size: 15px;
+  padding: 10px 0px;
+}
+.recipies {
+  margin-top: 50px;
+  position: absolute;
+  z-index: 9999;
+  right: 0;
+}
+.recipie-background {
+  position: relative;
+  background-image: url(images/recipie3.jpg);
+  padding: 350px 0px;
+  top: 140px;
+  width: 100%;
+  z-index: 99;
+  border-top: 20px solid orange;
+  border-bottom: 20px solid orange;
+}
+#recipie {
+  clip-path: polygon(0 0, 100% 0%, 100% 88%, 0% 100%);
+}
+.recipie1 {
+  position: relative;
+}
+.recipie2 {
+  position: absolute;
+  left: 26%;
+  top: 0%;
+}
+.recipie3 {
+  position: absolute;
+  left: 46%;
+  top: 0;
+}
+.recipie4 {
+  position: absolute;
+  left: 70%;
+  top: 0;
+}
+.recipie-details a {
+  color: orange;
+  font-weight: 500;
+  font-size: 15px;
+  float: right;
+  text-transform: capitalize;
+}
+.recipie-details i {
+  margin-left: 6px;
+}
+/* recipie css end */
+
+/* followers css start */
+.followers {
+  border-bottom: 1px solid #ddd;
+  box-shadow: 0px 9px 10px -1px #8d848496;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 60px 0px;
+}
+.subscriber {
+  width: 33%;
+  margin: auto;
+  text-align: center;
+}
+.subscriber span {
+  font-size: 30px;
+  font-weight: 700;
+}
+.subscriber p {
+  padding-top: 10px;
+}
+.single-social-img {
+  width: 21%;
+  margin: 0 2px;
+  height: 242px;
+  transition: all linear 0.3s;
+}
+.single-social-img:hover {
+  transform: scale(1.1);
+}
+.single-social-img img {
+  width: 100%;
+  height: 100%;
+  box-shadow: 21px 16px 16px 6px #8d848496;
+  border-radius: 25px;
+}
+#social-media {
+  margin-top: 50px;
+}
+footer {
+  padding: 80px 0px;
+  background-color: #0b0d17;
+}
+.footer-content {
+  text-align: center;
+  color: #fff;
+  text-transform: capitalize;
+}
+.footer-content p {
+  color: #ffff;
+}
+.footer-content span {
+  color: #fba24f;
+}
+.footer-content h3 {
+  color: #5b5b5b;
+}
+.footer-content p {
+  font-size: 14px;
+  padding-top: 14px;
+}
+/* followers css end */
